@@ -18,7 +18,8 @@ cloudinary.config({
 });
 
 const server = app.listen(PORT, () => {
-    console.log(`Server running`)
+    console.log(`🚀 Server running on http://localhost:${PORT}`)
+    console.log(`📝 Notes API available at http://localhost:${PORT}/api/notes`)
 });
 
 // Unhandled Promise Rejection
